@@ -1,18 +1,33 @@
-
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+h2{
+    font-size: 26px;
+    color: #1F2937;
+}
+.p-dark{
+    font-size: 18px;
+    color: #1F2937;
+}
+.p-light{
+    font-size: 18px;
+    color: white;
+}
+
 .section1{
     display: flex;
     flex-direction: column;
-    padding: 0 120px;
+    padding: 0 140px 80px;
     margin: 0;
     flex: 1;
     background-color: #1F2937;
     color: #F9FAF8;
-    height: 300px;
 }
 .head{
     display: flex;
@@ -21,11 +36,11 @@ body{
 }
 nav{
     display: flex;
-    gap: 16px;
 }
 a{
     text-decoration: none;
     color: #E5E7EB;
+    padding: 5px;
 }
 .hero{
     display: flex;
@@ -38,12 +53,90 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    color: black;
-    width: 500px;
+    width: 450px;
     height: 200px;
+}
+.place{
+    color: #1F2937;
 }
 .t-left{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 450px;
 }  
+.button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 20px;
+    border-style: none;
+
+}
+.b2{
+    border: 1px solid white;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3{
+    background-color: #E5E7EB;
+    padding: 80px 280px;
+    color: #1F2937;
+}
+.section4{
+    background-color:#FFFFFF;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.signup{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 80px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    width: 800px;
+}
+footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+h3{
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-box{
+    width: 180px;
+    height: 180px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 30px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
